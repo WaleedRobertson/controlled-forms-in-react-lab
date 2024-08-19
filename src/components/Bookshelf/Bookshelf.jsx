@@ -13,7 +13,7 @@ const Bookshelf = () => {
 
 
 
-  const [newBook, setFormData] = useState({
+  const [newBook, setNewBook] = useState({
     title: '',
     author: '',
   });
